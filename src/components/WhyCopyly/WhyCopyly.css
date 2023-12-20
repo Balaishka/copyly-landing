@@ -1,0 +1,23 @@
+.why-copyly {
+    text-align: center;
+    margin-bottom: 200px;
+    padding: 0 40px;
+}
+
+.why-copyly__subtitle {
+    width: 880px;
+    max-width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .why-copyly {
+        margin-bottom: 150px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .why-copyly {
+        margin-bottom: 100px;
+        padding: 0 16px;
+    }
+}

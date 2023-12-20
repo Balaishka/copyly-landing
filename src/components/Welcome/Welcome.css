@@ -1,0 +1,76 @@
+.welcome {
+  margin: 233px 0 200px;
+  text-align: center;
+  padding: 0 40px;
+}
+
+.welcome__welc {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0 0 24px;
+}
+
+.welcome__title {
+  font-family: "Unbounded";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 69px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto 32px;
+  max-width: 916px;
+}
+
+.welcome__text {
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto 32px;
+  max-width: 806px;
+}
+
+.welcome__btn {
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .welcome {
+    margin: 160px 0 150px;
+  }
+
+  .welcome__title {
+    font-size: 42px;
+    line-height: 52px;
+  }
+
+  .welcome__text {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 666px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+    .welcome {
+      margin: 112px 0 100px;
+      padding: 0 16px;
+    }
+
+    .welcome__welc {
+        font-size: 14px;
+        line-height: 21px;
+    }
+  
+    .welcome__title {
+      font-size: 29px;
+      line-height: 36px;
+    }
+
+    .welcome__btn {
+        width: 100%;
+    }
+  }

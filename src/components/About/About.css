@@ -1,0 +1,21 @@
+.about {
+    text-align: center;
+    padding: 0 40px;
+    margin: 0 0 200px;
+    color: #FFFFFF;
+}
+
+.about__subtitle {
+    max-width: 900px;
+}
+
+.about__img {
+    width: 1129px;
+    max-width: 100%;
+}
+
+@media screen and (max-width:550px) {
+    .about {
+        padding: 0 16px;
+    }
+}

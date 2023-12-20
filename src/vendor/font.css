@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Unbounded";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/Unbounded-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/NunitoSans_10pt-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/NunitoSans_10pt-SemiBold.ttf) format("truetype");
+}

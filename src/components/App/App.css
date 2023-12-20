@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    background-color: #0D1317;
+    min-height: 100vh;
+    height: max-content;
+  }
+
+  .page {
+    min-height: 100vh;
+    height: max-content;
+    background-image: url(../../images/bg.svg);
+    background-size: calc(100vw + 543px) auto;
+    background-position: -313px -435px;
+  }
+
+  .page__btn {
+    background-color: #89D2DC;
+    padding: 8px 24px;
+    border-radius: 30px;
+    transition: .2s ease-in-out;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #314D6B;
+    text-decoration: none;
+    border: none;
+    display: block;
+    width: max-content;
+  }
+
+  .page__btn:hover,
+  .page__btn:active,
+  .page__btn:focus {
+    background-color: #5DA6B0;
+  }
+
+  .page__title {
+    font-family: 'Unbounded';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin: 0 auto 28px;
+  }
+
+  .page__subtitle {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto 48px;
+  }
+
+  @media (orientation: portrait) {
+    .page {
+      background-image: url(../../images/bg-v.svg);
+      background-repeat: no-repeat;
+      background-position: -155px -152px;
+      background-size: calc(100vw + 302px) auto;
+    }
+  }
+
+  @media screen and (max-width:768px) {
+    .page__title {
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 37px;
+      margin-bottom: 24px;
+    }
+  
+    .page__subtitle {
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 40px;
+    }
+  }
+
+  @media screen and (max-width:550px) {
+    .page__title {
+      font-size: 20px;
+      line-height: 25px;
+      margin-bottom: 16px;
+    }
+  
+    .page__subtitle {
+      font-size: 14px;
+      line-height: 21px;
+      margin-bottom: 28px;
+    }
+  }
+
+  @media screen and (max-width:500px) {
+    .page {
+      background-position: -100px -40px;
+      background-size: calc(100vw + 180px) auto;
+    }
+  }
