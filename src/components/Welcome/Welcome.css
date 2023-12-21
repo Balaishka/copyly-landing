@@ -1,7 +1,8 @@
 .welcome {
-  margin: 233px 0 200px;
+  margin: 233px auto 100px;
   text-align: center;
   padding: 0 40px;
+  max-width: 1440px;
 }
 
 .welcome__welc {
@@ -39,7 +40,7 @@
 
 @media screen and (max-width: 768px) {
   .welcome {
-    margin: 160px 0 150px;
+    margin: 160px 0 50px;
   }
 
   .welcome__title {
@@ -56,7 +57,7 @@
 
 @media screen and (max-width: 550px) {
     .welcome {
-      margin: 112px 0 100px;
+      margin: 112px 0 0;
       padding: 0 16px;
     }
 

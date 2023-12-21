@@ -1,0 +1,35 @@
+.footer {
+    background-color: #162027;
+    border-radius: 60px 60px 0 0;
+    padding: 100px;
+    text-align: center;
+}
+
+.footer__logo-link {
+    display: block;
+    width: 180px;
+    margin: 0 auto 24px;
+}
+
+.footer__logo-img {
+    width: 100%;
+}
+
+.footer__copyright {
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #95B0B4;
+    margin: 0;
+}
+
+@media screen and (max-width:550px) {
+    .footer {
+        padding: 60px 16px;
+    }
+
+    .footer__logo-link {
+        width: 140px;
+        margin-bottom: 16px;
+    }
+}

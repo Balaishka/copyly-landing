@@ -1,8 +1,9 @@
 .about {
     text-align: center;
-    padding: 0 40px;
-    margin: 0 0 200px;
+    padding: 100px 40px 0;
+    margin: 0 auto 100px;
     color: #FFFFFF;
+    max-width: 1440px;
 }
 
 .about__subtitle {
@@ -14,8 +15,15 @@
     max-width: 100%;
 }
 
+@media screen and (max-width:768px) {
+    .about {
+        margin-bottom: 50px;
+    }
+}
+
 @media screen and (max-width:550px) {
     .about {
-        padding: 0 16px;
+        padding: 100px 16px 0;
+        margin-bottom: 0;
     }
 }

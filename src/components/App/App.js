@@ -1,11 +1,13 @@
 import "./App.css";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import { useTranslation } from "react-i18next";
 import Welcome from "../Welcome/Welcome";
 import About from "../About/About";
 import WhyCopyly from "../WhyCopyly/WhyCopyly";
+import Subscription from "../Subscription/Subscription";
+import Contacts from "../Contacts/Contacts";
 
 function App() {
   // Язык
@@ -28,6 +30,8 @@ function App() {
         <Welcome t={t} />
         <About t={t} />
         <WhyCopyly t={t} />
+        <Subscription t={t} />
+        <Contacts t={t} />
 
         <Footer t={t} />
       </div>

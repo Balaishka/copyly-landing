@@ -47,7 +47,7 @@ function Header({ t, i18n, changeLang }) {
   }
 
   return (
-    <header className="header">
+    <header className={`header ${menuOpened ? "header__opened" : ""}`}>
       <div className="header__left">
         <a className="header__logo-link" href="/">
           <img className="header__logo-img" src={logo} alt={t("logo")} />
@@ -98,7 +98,7 @@ function Header({ t, i18n, changeLang }) {
           </ul>
         </div>
 
-        <a className="page__btn header__btn" href="#">{t("start")}</a>
+        <a className="page__btn header__btn" href="http://app.copyly.xyz/">{t("start")}</a>
       </div>
     </header>
   );
