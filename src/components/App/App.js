@@ -28,8 +28,8 @@ function App() {
         <Header t={t} i18n={i18n} changeLang={changeLang} />
 
         <Welcome t={t} />
-        <About t={t} />
-        <WhyCopyly t={t} />
+        <About t={t} lang={lang} />
+        <WhyCopyly t={t} lang={lang} />
         <Subscription t={t} />
         <Contacts t={t} />
 

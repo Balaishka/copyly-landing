@@ -25,6 +25,7 @@
     grid-column-end: 3;
     display: grid;
     grid-template-columns: 36fr 49fr;
+    overflow: hidden;
 }
 
 .why-copyly__wallets-left {
@@ -89,6 +90,7 @@
     border-radius: 60px;
     background-color: #202D36;
     max-height: 610px;
+    overflow: hidden;
 }
 
 .why-copyly__tg-left {
@@ -139,6 +141,7 @@
     grid-template-rows: 73fr 94fr;
     grid-gap: 38px;
     max-height: 610px;
+    overflow: hidden;
 }
 
 .why-copyly__analysis-top {
@@ -425,7 +428,7 @@
     }
 
     .why-copyly__analysis-top {
-        padding: 50px 0 0 19px;
+        padding: 32px 0 0 19px;
     }
 
     .why-copyly__analysis-bottom {
@@ -477,7 +480,7 @@
     }
 
     .why-copyly__wallets-right {
-        padding: 52px 0 0 32px;
+        padding: 32px 0 0 32px;
     }
 
     .why-copyly__tg-title {

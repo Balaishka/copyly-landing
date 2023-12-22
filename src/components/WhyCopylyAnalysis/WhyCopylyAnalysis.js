@@ -1,10 +1,11 @@
-import img from "../../images/why-3.png";
+import img_ru from "../../images/why-3-ru.png";
+import img_en from "../../images/why-3-en.png";
 
-function WhyCopylyAnalysis({ t }) {
+function WhyCopylyAnalysis({ t, lang }) {
     return (
         <div className="why-copyly__analysis">
             <div className="why-copyly__analysis-top">
-                <img className="why-copyly__analysis-img" src={img} alt={t("why_analysis_title")} />
+                <img className="why-copyly__analysis-img" src={lang === "ru" ? img_ru:img_en} alt={t("why_analysis_title")} />
             </div>
 
             <div className="why-copyly__analysis-bottom">
