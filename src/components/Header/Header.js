@@ -98,7 +98,8 @@ function Header({ t, i18n, changeLang }) {
           </ul>
         </div>
 
-        <a className="page__btn header__btn" href="http://app.copyly.xyz/">{t("start")}</a>
+        {/* <a className="page__btn header__btn" href="http://app.copyly.xyz/">{t("start")}</a> */}
+        <button className="page__btn page__btn_disabled header__btn" disabled="disabled" type="button">{t("coming_soon")}</button>
       </div>
     </header>
   );

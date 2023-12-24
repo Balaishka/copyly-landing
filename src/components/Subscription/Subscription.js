@@ -25,7 +25,8 @@ function Subscription({ t }) {
                     <p className="subscription__price-free">{t("subscription_price_free")}</p>
                 </div>
 
-                <a href="http://app.copyly.xyz/" className="subscription__btn page__btn">{t("subscription_btn")}</a>
+                {/* <a href="http://app.copyly.xyz/" className="subscription__btn page__btn">{t("subscription_btn")}</a> */}
+                <button className="page__btn page__btn_disabled subscription__btn" disabled="disabled" type="button">{t("coming_soon")}</button>
             </div>
         </section>
     );

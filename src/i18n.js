@@ -48,7 +48,8 @@ i18n
               subscription_btn: "Попробовать бесплатно",
               contacts_title: "Контакты",
               contacts_subtitle: "Присоединяйтесь к сообществу Copyly, где мы меняем будущее копи-трейдинга, предлагая передовые инновации, простоту использования и фокусируясь на вашей прибыльности",
-              footer_text: "Все права защищены"
+              footer_text: "Все права защищены",
+              coming_soon: "Скоро запуск"
           }
       },
       en: {
@@ -92,7 +93,8 @@ i18n
               subscription_btn: "Try for free",
               contacts_title: "Contacts",
               contacts_subtitle: "Join the Copyly community where we're changing the future of copy trading by delivering cutting-edge innovation, ease of use, and a focus on your profitability",
-              footer_text: "All rights reserved"
+              footer_text: "All rights reserved",
+              coming_soon: "Coming soon"
           }
       }
 
@@ -100,8 +102,8 @@ i18n
     // the translations
     // (tip move them in a JSON file and import them,
     // or even better, manage them via a UI: https://react.i18next.com/guides/multiple-translation-files#manage-your-translations-with-a-management-gui)
-    lng: localStorage.getItem("lang") ? localStorage.getItem("lang"):"ru", // if you're using a language detector, do not define the lng option
-    fallbackLng: localStorage.getItem("lang") ? localStorage.getItem("lang"):"ru",
+    lng: localStorage.getItem("lang") ? localStorage.getItem("lang"):"en", // if you're using a language detector, do not define the lng option
+    fallbackLng: localStorage.getItem("lang") ? localStorage.getItem("lang"):"en",
 
     interpolation: {
       escapeValue: false, // react already safes from xss => https://www.i18next.com/translation-function/interpolation#unescape

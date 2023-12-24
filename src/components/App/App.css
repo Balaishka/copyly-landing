@@ -42,6 +42,12 @@
     background-color: #5DA6B0;
   }
 
+  .page__btn_disabled,
+  .page__btn_disabled:hover {
+    cursor: default;
+    background-color: #89D2DC;
+  }
+
   .page__title {
     font-family: 'Unbounded';
     font-weight: 700;
