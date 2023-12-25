@@ -22,7 +22,7 @@ function Subscription({ t }) {
 
                 <div className="subscription__price">
                     <p className="subscription__price-price">{t("subscription_price_text")}</p>
-                    <p className="subscription__price-free">{t("subscription_price_free")}</p>
+                    {/* <p className="subscription__price-free">{t("subscription_price_free")}</p> */}
                 </div>
 
                 {/* <a href="http://app.copyly.xyz/" className="subscription__btn page__btn">{t("subscription_btn")}</a> */}
