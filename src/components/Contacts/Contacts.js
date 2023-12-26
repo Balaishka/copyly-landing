@@ -9,10 +9,10 @@ function Contacts({ t }) {
                 <h2 className="contacts__title page__title">{t("contacts_title")}</h2>
                 <p className="contacts__subtitle page__subtitle">{t("contacts_subtitle")}</p>
                 <div className="contacts__links">
-                    <a href="https://t.me/Copyly_bot" className="contacts__link contacts__link_name_tg">
+                    <a href="https://t.me/copylyxyz" className="contacts__link contacts__link_name_tg" target="_blank">
                         <img className="contacts__icon" src={tg} alt="Телеграм" />
                     </a>
-                    <a href="https://twitter.com/Copylyxyz" className="contacts__link contacts__link_name_tw">
+                    <a href="https://twitter.com/Copylyxyz" className="contacts__link contacts__link_name_tw" target="_blank">
                         <img className="contacts__icon" src={tw} alt="Телеграм" />
                     </a>
                 </div>
