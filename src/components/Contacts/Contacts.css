@@ -47,6 +47,10 @@
     margin: 0 auto 20px;
 }
 
+.contacts__ca-number {
+    word-wrap: break-word;
+}
+
 @media screen and (max-width:768px) {
     .contacts {
         margin-bottom: 60px;
@@ -75,5 +79,9 @@
 
     .contacts__link:not(:last-child) {
         margin-right: 20px;
+    }
+
+    .contacts__ca-title {
+        font-size: 20px;
     }
 }
